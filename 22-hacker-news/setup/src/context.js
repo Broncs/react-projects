@@ -57,7 +57,6 @@ const AppProvider = ({ children }) => {
     <AppContext.Provider
       value={{ ...state, removeStory, handleSearch, handlePage }}
     >
-      {' '}
       {children}
     </AppContext.Provider>
   );
